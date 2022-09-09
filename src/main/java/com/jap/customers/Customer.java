@@ -16,7 +16,7 @@ private int loyaltyPoints;
         this.city = city;
         this.loyaltyPoints = loyaltyPoints;
     }
-
+    // generate getters and setters
     public int getCustomerId() {
         return customerId;
     }
@@ -63,10 +63,5 @@ private int loyaltyPoints;
 
     public void setLoyaltyPoints(int loyaltyPoints) {
         this.loyaltyPoints = loyaltyPoints;
-    }
-    // Override the toString method
-    @Override
-    public String toString() {
-        return "";
     }
 }
