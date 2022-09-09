@@ -2,13 +2,13 @@ package com.jap.customers;
 
 import java.util.Objects;
 
-public class Customer{
-private int customerId;
-private String customerName;
-private String customerGender;
-private boolean isSeniorCitizen;
-private String city;
-private int loyaltyPoints;
+public class Customer {
+    private int customerId;
+    private String customerName;
+    private String customerGender;
+    private boolean isSeniorCitizen;
+    private String city;
+    private int loyaltyPoints;
 
     public Customer(int customerId, String customerName, String customerGender, boolean isSeniorCitizen, String city, int loyaltyPoints) {
         this.customerId = customerId;
@@ -18,6 +18,7 @@ private int loyaltyPoints;
         this.city = city;
         this.loyaltyPoints = loyaltyPoints;
     }
+
     // generate getters and setters
     public int getCustomerId() {
         return customerId;
@@ -70,15 +71,9 @@ private int loyaltyPoints;
 
     @Override
     public String toString() {
-        return "Customer{" +
-                "customerId=" + customerId +
-                ", customerName='" + customerName + '\'' +
-                ", customerGender='" + customerGender + '\'' +
-                ", isSeniorCitizen=" + isSeniorCitizen +
-                ", city='" + city + '\'' +
-                ", loyaltyPoints=" + loyaltyPoints +
-                '}';
+        return "Customer{" + "customerId=" + customerId + ", customerName='" + customerName + '\'' + ", customerGender='" + customerGender + '\'' + ", isSeniorCitizen=" + isSeniorCitizen + ", city='" + city + '\'' + ", loyaltyPoints=" + loyaltyPoints + '}';
     }
+
     // override equals() and hashcode()
     @Override
     public boolean equals(Object o) {
