@@ -74,6 +74,7 @@ public class Customer {
         return "Customer{" + "customerId=" + customerId + ", customerName='" + customerName + '\'' + ", customerGender='" + customerGender + '\'' + ", isSeniorCitizen=" + isSeniorCitizen + ", city='" + city + '\'' + ", loyaltyPoints=" + loyaltyPoints + '}';
     }
 
+
     // override equals() and hashcode()
     @Override
     public boolean equals(Object o) {
