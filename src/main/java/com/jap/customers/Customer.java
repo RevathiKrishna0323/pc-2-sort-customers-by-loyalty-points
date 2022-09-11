@@ -88,3 +88,4 @@ public class Customer {
         return Objects.hash(customerId, customerName, customerGender, isSeniorCitizen, city, loyaltyPoints);
     }
 }
+
